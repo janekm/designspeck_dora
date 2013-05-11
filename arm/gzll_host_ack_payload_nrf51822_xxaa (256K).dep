@@ -1,0 +1,115 @@
+Dependencies for Project 'gzll_host_ack_payload', Target 'nrf51822_xxaa (256K)': (DO NOT MODIFY !)
+F (..\main_host_ack_payload.c)(0x518D16EA)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\main_host_ack_payload.o" --omf_browse ".\_build\main_host_ack_payload.crf" --depend ".\_build\main_host_ack_payload.d")
+I (..\nrf51_Sdk\Include\gzll\nrf_gzll.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB14308)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\gzll\nrf_gzll_constants.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_gpio.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_delay.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\math.h)(0x4EB14308)
+I (..\nrf51_Sdk\Include\twi_master.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\app_common\app_timer.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB14306)
+I (..\nrf51_Sdk\Include\app_common\app_error.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\ble\softdevice\nrf_error.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\app_common\app_util.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\app_common\app_scheduler.h)(0x518CD7F0)
+I (..\radio_config.h)(0x515AC1E4)
+I (..\libjanek.h)(0x51742EF6)
+I (..\nrf51_Sdk\Include\spi_master.h)(0x518CD7F0)
+I (..\wavetable.h)(0x4F0B3B34)
+I (..\tune_mai.h)(0x518D07FC)
+F (..\nrf51_Sdk\Source\templates\arm\arm_startup_nrf51.s)(0x518CD7F0)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include --list ".\_build\arm_startup_nrf51.lst" --xref -o ".\_build\arm_startup_nrf51.o" --depend ".\_build\arm_startup_nrf51.d")
+F (..\nrf51_Sdk\Source\templates\system_nrf51.c)(0x518CD7F0)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\system_nrf51.o" --omf_browse ".\_build\system_nrf51.crf" --depend ".\_build\system_nrf51.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+F (..\nrf51_Sdk\Lib\gzll\arm\gzll_arm.lib)(0x518CD7F0)()
+F (..\gzll_app_timer.c)(0x51542142)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\gzll_app_timer.o" --omf_browse ".\_build\gzll_app_timer.crf" --depend ".\_build\gzll_app_timer.d")
+I (..\nrf51_Sdk\Include\app_common\app_timer.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB14308)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB14306)
+I (..\nrf51_Sdk\Include\app_common\app_error.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\ble\softdevice\nrf_error.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\app_common\app_util.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\app_common\app_scheduler.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB14304)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\ble\softdevice\nrf_soc.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\ble\softdevice\nrf_svc.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\ble\softdevice\nrf_error_soc.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_assert.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_delay.h)(0x518CD7F0)
+F (..\libjanek.c)(0x518CD367)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\libjanek.o" --omf_browse ".\_build\libjanek.crf" --depend ".\_build\libjanek.d")
+I (..\nrf51_Sdk\Include\nrf_gpio.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_delay.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\twi_master.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB14308)
+I (..\libjanek.h)(0x51742EF6)
+F (..\nrf51_Sdk\Source\twi_master\twi_sw_master.c)(0x518CD7F0)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\twi_sw_master.o" --omf_browse ".\_build\twi_sw_master.crf" --depend ".\_build\twi_sw_master.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB14308)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (..\nrf51_Sdk\Include\twi_master.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_delay.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+I (..\twi_master_config.h)(0x51791637)
+F (..\nrf51_Sdk\Source\spi_master\spi_master.c)(0x518CD7F0)(--feedback ".\_build\gzll_host_ack_payload.fed" -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\nrf51_Sdk\Include\gzll -I..\nrf51_Sdk\Include -I..\ -I..\nrf51_Sdk\Include\app_common -I..\nrf51_Sdk\Include\ble\softdevice --c99 -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -DNRF51 -o ".\_build\spi_master.o" --omf_browse ".\_build\spi_master.crf" --depend ".\_build\spi_master.d")
+I (..\nrf51_Sdk\Include\spi_master.h)(0x518CD7F0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h)(0x4EB14308)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB14304)
+I (..\nrf51_Sdk\Include\nrf_delay.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\compiler_abstraction.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51.h)(0x518CD7F0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x50068BF2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5059BEFC)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDAF6CC)
+I (..\nrf51_Sdk\Include\system_nrf51.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_bitfields.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf51_deprecated.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\nrf_gpio.h)(0x518CD7F0)
+I (..\nrf51_Sdk\Include\common.h)(0x518CD7F0)
+I (..\spi_master_config.h)(0x518CD059)

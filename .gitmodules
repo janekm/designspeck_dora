@@ -1,0 +1,3 @@
+[submodule "nrf51_Sdk"]
+	path = nrf51_Sdk
+	url = https://janekm@bitbucket.org/janekm/nrf51_sdk.git
